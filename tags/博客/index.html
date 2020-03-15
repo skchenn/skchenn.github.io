@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          初次搭建博客记录 - 编码, 生活
+          编码, 生活
         
     </title>
 
-    <link rel="canonical" href="https://mloveu.com/2020/03/15/blog/">
+    <link rel="canonical" href="https://mloveu.com/tags/博客/">
 
     <!-- Bootstrap Core CSS -->
 
@@ -119,21 +119,13 @@
 			
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="z-index:2;">
                 
-                    <div class="post-heading" style="padding:40px">
-                        <div class="tags">
-                            
-                              <a class="tag" href="/tags/#博客" title="博客">博客</a>
-                            
-                              <a class="tag" href="/tags/#hexo" title="hexo">hexo</a>
-                            
-                        </div>
-                        <h1>初次搭建博客记录</h1>
-                        <h2 class="subheading"></h2>
-                        <span class="meta">
-                            Posted by chenshikai on
-                            2020-03-15
-                        </span>
+				
+                    <div class="site-heading"  style="padding:40px">
+                        <h1>MLOVEU</h1>
+                        <!--<hr class="small">-->
+                        <span class="subheading">文字记录人生</span>
                     </div>
+                
                 
                 </div>
             </div>
@@ -236,171 +228,174 @@
 
 
     <!-- Main Content -->
-    <!-- Modify by Yu-Hsuan Yen -->
+    <!-- Main Content -->
+<div class="container">
+    <div class="row">
+        
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-
-            <!-- Post Container -->
+<!-- USE SIDEBAR -->
+    <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-                <p>2020年3月15日 凌晨3点</p>
-<h2 id="hexo官方安装教程"><a href="#hexo官方安装教程" class="headerlink" title="hexo官方安装教程"></a>hexo官方安装教程</h2><ul>
-<li><a href="https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Hexo" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Hexo</a></li>
-</ul>
-<hr>
-<h2 id="个人搭建详细过程"><a href="#个人搭建详细过程" class="headerlink" title="个人搭建详细过程"></a>个人搭建详细过程</h2><h3 id="一-安装node-js和git"><a href="#一-安装node-js和git" class="headerlink" title="一. 安装node.js和git"></a>一. 安装node.js和git</h3><ul>
-<li><p>windows用户从 <a href="https://npm.taobao.org/mirrors/node/v12.16.1/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/node/v12.16.1/</a> 下载对应windows的msi包，直接安装即可</p>
-</li>
-<li><p>由于我的电脑上以前就装了git，所以不需要安装，具体安装过程就木有了（可以参考hexo的git安装教程）。</p>
-</li>
-</ul>
-<h3 id="二-安装hexo"><a href="#二-安装hexo" class="headerlink" title="二. 安装hexo"></a>二. 安装hexo</h3><p>cmd进入需要安装hexo的目录，依次执行下面命令</p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line"></span><br><span class="line">hexo init hexo</span><br><span class="line"></span><br><span class="line">cd hexo</span><br><span class="line"></span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure></code></pre><p>浏览器打开localhost:4000即可看到‘hello word’默认博客模板</p>
-<p>注意：由于npm服务器在国外，国内有可能会连不上，安装时报<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install rollbackFailedOptional: verb npm-session ******************</span><br></pre></td></tr></table></figure></p>
-<p>解决方法一：镜像服务器设置直接cmd输入</p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry http:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure></code></pre><p>解决方法二：找到nodejs下的.npmrc或者去c盘user下找.npmrc直接编辑配置文件。在配置文件修改以下两项：</p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">proxy&#x3D;null</span><br><span class="line">registry&#x3D;http:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure></code></pre><p>如果npm install的过程中卡住了，可以cirl+C结束安装，然后把“C:\Users\666\AppData\Roaming”下的npm和npm-cache两个目录删掉，重新执行命令安装</p>
-<hr>
-<h3 id="三-远程部署"><a href="#三-远程部署" class="headerlink" title="三. 远程部署"></a>三. 远程部署</h3><p>本地生成了博客之后只能在自己本地浏览，如果需要部署在网络上，需要使用GitHub Pages或者服务器，由于hexo生成的是静态博客，没有后台管理系统，所以推荐使用GitHub Pages进行远程部署。</p>
-<ul>
-<li><p>新建个人git仓库，命名格式为 用户名.github.io</p>
-</li>
-<li><p>安装hexo-deployer-git</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改 博客目录下的配置文件_config.yml中的deploy字段</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git仓库项目地址</span><br><span class="line">  branch: 分支</span><br><span class="line">      message: 自定义提交说明，这个字段可以没有</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成博客并部署</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate &#x2F;&#x2F; hexo g</span><br><span class="line"></span><br><span class="line">hexo deploy &#x2F;&#x2F; hexo d</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>打开 用户名.github.io ，即可看到部署上去的博客</p>
-</li>
-</ul>
-
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+            
+	        
                 
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 归档列表 -->
+            
+            
 
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    
-                    
+             <!-- 归档列表 -->
+
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2020">
+                    <span class="tag-text">2020</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    03-15
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2020/03/15/blog/" style="color: #0085a1">
+                        <span>
+                            初次搭建博客记录
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
                 </ul>
-
-                <br>
-
-                <!--打赏-->
-                
-                <!--打赏-->
-
-                <br>
-                <!--分享-->
-                
-                    <div class="social-share"  data-wechat-qrcode-helper="" align="center"></div>
-                    <!--  css & js -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-                
-                <!--分享-->
-                <br>                       
-                
-                <!-- require APlayer -->
-                
-
-                <!-- disqus comment start -->
-                
-                <!-- disqus comment end -->
-
-                
-				
             </div>
+            
 
-            <!-- Tabe of Content -->
-            <!-- Table of Contents -->
 
-                
-            <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                <!-- Featured Tags -->
-                
-                <section>
-                    <!-- no hr -->
-                    <h5><a href="/tags/">标签云</a></h5>
-                    <div class="tags">
-                       
-                          <a class="tag" href="/tags/#博客" title="博客">博客</a>
-                        
-                          <a class="tag" href="/tags/#hexo" title="hexo">hexo</a>
-                        
-                    </div>
-                </section>
-                
-
-                <!-- Friends Blog -->
-                
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-
-                    
-                        <li><a href="" target="_blank"></a></li>
-                    
-                </ul>
-                
-            </div>
         </div>
     </div>
-</article>
+</div>
+            
 
 
 
+                <!-- 如果开启评论功能 -->
+                
+            </div>
+
+          <!-- Sidebar Container -->
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+        <!-- Featured Tags -->
+
+<section>
+    <!-- no hr -->
+    <h5><a href="/tags/">标签云</a></h5>
+    <div class="tags">
+        
+            
+            <a href="/tags/#博客" title="博客" rel="1">博客</a>
+            
+        
+            
+            <a href="/tags/#hexo" title="hexo" rel="1">hexo</a>
+            
+        
+    </div>
+</section>
+
+        <hr>
+    
+        <!-- Short About -->
+<section class="visible-md visible-lg">
+    <h5><a href="/about/">关于</a></h5>
+    <div class="short-about">
+
+        
+            <img id = "avatar_pic" src="/img/avatar/IMG_0007.JPG" />
+        
+
+        
+            <p>用心创造美好生活</p>
+        
+
+        <!-- SNS Link -->
+        <ul class="list-inline">
+            
+            
+            
+
+            
+
+            
+
+            
+            
+            
+            
+        </ul>
+    </div>
+</section>
+
+        <hr>
+    
+        
+  <h5>最近发表</h3>
+  <div class="widget">
+    <ul>
+      
+        <li>
+          <a href="/2020/03/15/blog/">初次搭建博客记录</a>
+        </li>
+      
+    </ul>
+  </div>
+
+        <hr>
+    
+        
+    <h5>归档</h5>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+
+        <hr>
+    
+        <!-- Friends Blog -->
+
+<h5>友链</h5>
+<ul class="list-inline">
+
+    
+        <li><a href="" target="_blank"></a></li>
+    
+</ul>
 
 
+        <hr>
+    
+</div>
 
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
-    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'hover',
-          placement: 'left',
-          icon: 'ℬ'
-        };
-        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
-</script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
 
+        
+    </div>
+</div>
 
 
     <!-- Footer -->
@@ -506,7 +501,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("https://mloveu.com/2020/03/15/blog/index.html/js/jquery.tagcloud.js",function(){
+        async("https://mloveu.com/tags/%E5%8D%9A%E5%AE%A2/index.html/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
