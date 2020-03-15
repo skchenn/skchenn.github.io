@@ -5,9 +5,9 @@
   <subtitle>文字记录人生</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://mloveu.com/"/>
+  <link href="https://blog.mloveu.com/"/>
   <updated>2020-03-15T14:47:40.759Z</updated>
-  <id>https://mloveu.com/</id>
+  <id>https://blog.mloveu.com/</id>
   
   <author>
     <name>chenshikai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo - 如何给博客分类、打标签</title>
-    <link href="https://mloveu.com/2020/03/15/hexo-category/"/>
-    <id>https://mloveu.com/2020/03/15/hexo-category/</id>
+    <link href="https://blog.mloveu.com/2020/03/15/hexo-category/"/>
+    <id>https://blog.mloveu.com/2020/03/15/hexo-category/</id>
     <published>2020-03-15T10:04:37.000Z</published>
     <updated>2020-03-15T14:47:40.759Z</updated>
     
@@ -32,17 +32,17 @@
     </summary>
     
     
-      <category term="note" scheme="https://mloveu.com/categories/note/"/>
+      <category term="note" scheme="https://blog.mloveu.com/categories/note/"/>
     
     
-      <category term="hexo" scheme="https://mloveu.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.mloveu.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>hexo - 初次搭建博客记录</title>
-    <link href="https://mloveu.com/2020/03/15/blog/"/>
-    <id>https://mloveu.com/2020/03/15/blog/</id>
+    <link href="https://blog.mloveu.com/2020/03/15/blog/"/>
+    <id>https://blog.mloveu.com/2020/03/15/blog/</id>
     <published>2020-03-15T03:58:58.000Z</published>
     <updated>2020-03-15T14:57:21.527Z</updated>
     
@@ -55,12 +55,12 @@
     </summary>
     
     
-      <category term="note" scheme="https://mloveu.com/categories/note/"/>
+      <category term="note" scheme="https://blog.mloveu.com/categories/note/"/>
     
     
-      <category term="hexo" scheme="https://mloveu.com/tags/hexo/"/>
+      <category term="博客搭建" scheme="https://blog.mloveu.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="博客搭建" scheme="https://mloveu.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="hexo" scheme="https://blog.mloveu.com/tags/hexo/"/>
     
   </entry>
   
