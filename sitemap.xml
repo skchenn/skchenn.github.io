@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.mloveu.com/2020/03/22/note-20200322/</loc>
+    
+    <lastmod>2020-03-22T08:40:51.060Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.mloveu.com/2020/03/15/hexo-category/</loc>
+    
+    <lastmod>2020-03-22T06:57:13.944Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.mloveu.com/2020/03/16/essay-2020-3-16/</loc>
     
-    <lastmod>2020-03-15T16:45:13.839Z</lastmod>
+    <lastmod>2020-03-15T16:47:52.967Z</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>https://blog.mloveu.com/2020/03/15/blog/</loc>
     
     <lastmod>2020-03-15T14:57:21.527Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.mloveu.com/2020/03/15/hexo-category/</loc>
-    
-    <lastmod>2020-03-15T14:47:40.759Z</lastmod>
     
   </url>
   
