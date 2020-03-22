@@ -2,30 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.mloveu.com/2020/03/22/note-20200322/</loc>
+    <loc>https://blog.mloveu.com/2020/03/22/JVM/gc2/</loc>
     
-    <lastmod>2020-03-22T08:43:11.572Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.mloveu.com/2020/03/15/hexo-category/</loc>
-    
-    <lastmod>2020-03-22T06:57:13.944Z</lastmod>
+    <lastmod>2020-03-22T09:25:08.253Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.mloveu.com/2020/03/16/essay-2020-3-16/</loc>
+    <loc>https://blog.mloveu.com/2020/03/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/hexo-category/</loc>
     
-    <lastmod>2020-03-15T16:47:52.967Z</lastmod>
+    <lastmod>2020-03-22T08:59:50.146Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.mloveu.com/2020/03/15/blog/</loc>
+    <loc>https://blog.mloveu.com/2020/03/16/%E9%9A%8F%E7%AC%94/essay-2020-3-16/</loc>
     
-    <lastmod>2020-03-15T14:57:21.527Z</lastmod>
+    <lastmod>2020-03-22T08:59:43.152Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.mloveu.com/2020/03/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/blog/</loc>
+    
+    <lastmod>2020-03-22T08:59:30.544Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.mloveu.com/2020/03/22/JVM/note-20200322/</loc>
+    
+    <lastmod>2020-03-22T08:59:00.339Z</lastmod>
     
   </url>
   
